@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c75f66b9-e9d5-421b-bc5f-3f142e7c0635" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Zz1UuiZ5kNPg4x61sXC74OA7ol" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/saucedemo" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Workspace\SauceLabsDemo\src\test\java\com\saucedemo" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SauceLabsDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.saucedemo.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.saucedemo.runner" />
+      <option name="MAIN_CLASS_NAME" value="com.saucedemo.runner.TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestRunner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c75f66b9-e9d5-421b-bc5f-3f142e7c0635" name="Default Changelist" comment="" />
+      <created>1585827127477</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585827127477</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1230" y="280" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1585851353479">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1230" y="280" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1585851353479" />
+    <state x="-1506" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585827466873">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1506" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1585827466873" />
+    <state x="-1257" y="451" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1585827677169">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1257" y="451" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1585827677169" />
+    <state x="-1164" y="406" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1585827666871">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1164" y="406" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1585827666871" />
+    <state width="1875" height="285" key="GridCell.Tab.0.bottom" timestamp="1585868641957">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1875" height="285" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1585868641957" />
+    <state width="1875" height="285" key="GridCell.Tab.0.center" timestamp="1585868641957">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1875" height="285" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1585868641957" />
+    <state width="1875" height="285" key="GridCell.Tab.0.left" timestamp="1585868641957">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1875" height="285" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1585868641957" />
+    <state width="1875" height="285" key="GridCell.Tab.0.right" timestamp="1585868641957">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1875" height="285" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1585868641957" />
+    <state width="1875" height="351" key="GridCell.Tab.1.bottom" timestamp="1585844726509">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1875" height="351" key="GridCell.Tab.1.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1585844726509" />
+    <state width="1875" height="351" key="GridCell.Tab.1.center" timestamp="1585844726509">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1875" height="351" key="GridCell.Tab.1.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1585844726509" />
+    <state width="1875" height="351" key="GridCell.Tab.1.left" timestamp="1585844726509">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1875" height="351" key="GridCell.Tab.1.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1585844726509" />
+    <state width="1875" height="351" key="GridCell.Tab.1.right" timestamp="1585844726509">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1875" height="351" key="GridCell.Tab.1.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1585844726509" />
+    <state x="-1459" y="168" key="SettingsEditor" timestamp="1585834088939">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1459" y="168" key="SettingsEditor/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1585834088939" />
+    <state x="-1297" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1585830113543">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1297" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1585830113543" />
+  </component>
+</project>

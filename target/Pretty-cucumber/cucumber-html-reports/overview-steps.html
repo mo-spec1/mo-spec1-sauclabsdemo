@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports  - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>No Name (add projectName to cucumber-reporting.properties)</td>
+      <td>03 Apr 2020, 00:02</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+      <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+  </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+              <td class="location">com.saucedemo.hooks.Hooks.setUp()</td>
+              <td>8</td>
+              <td class="duration" data-value="9222750000">9.222</td>
+              <td class="duration" data-value="9222750000">9.883</td>
+              <td class="duration" data-value="73782000000">1:13.782</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.saucedemo.hooks.Hooks.tearDown()</td>
+              <td>8</td>
+              <td class="duration" data-value="598375000">0.598</td>
+              <td class="duration" data-value="598375000">0.607</td>
+              <td class="duration" data-value="4787000000">4.787</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.saucedemo.stepdefinitions.AddAnItemToCheckoutSteps.I_add_items_to_the_basket()</td>
+              <td>1</td>
+              <td class="duration" data-value="404000000">0.404</td>
+              <td class="duration" data-value="404000000">0.404</td>
+              <td class="duration" data-value="404000000">0.404</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.saucedemo.stepdefinitions.AddAnItemToCheckoutSteps.iAmOnTheCheckoutPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="611000000">0.611</td>
+              <td class="duration" data-value="611000000">0.611</td>
+              <td class="duration" data-value="611000000">0.611</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.saucedemo.stepdefinitions.AddAnItemToCheckoutSteps.iClickOnTheFinishButton()</td>
+              <td>1</td>
+              <td class="duration" data-value="155000000">0.155</td>
+              <td class="duration" data-value="155000000">0.155</td>
+              <td class="duration" data-value="155000000">0.155</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.saucedemo.stepdefinitions.AddAnItemToCheckoutSteps.iEnterMyName(java.lang.String,java.lang.String)</td>
+              <td>2</td>
+              <td class="duration" data-value="133500000">0.133</td>
+              <td class="duration" data-value="133500000">0.135</td>
+              <td class="duration" data-value="267000000">0.267</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.saucedemo.stepdefinitions.AddAnItemToCheckoutSteps.iEnterMyPostalCodeAndContinue(java.lang.String)</td>
+              <td>2</td>
+              <td class="duration" data-value="168500000">0.168</td>
+              <td class="duration" data-value="168500000">0.193</td>
+              <td class="duration" data-value="337000000">0.337</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.saucedemo.stepdefinitions.AddAnItemToCheckoutSteps.iShouldBeTakenToAOverviewPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="26000000">0.026</td>
+              <td class="duration" data-value="26000000">0.026</td>
+              <td class="duration" data-value="26000000">0.026</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.saucedemo.stepdefinitions.AddAnItemToCheckoutSteps.iShouldBeTakenToAThankYouPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="25000000">0.025</td>
+              <td class="duration" data-value="25000000">0.025</td>
+              <td class="duration" data-value="25000000">0.025</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.saucedemo.stepdefinitions.AddAnItemToCheckoutSteps.iShouldBeTakenToTheProductPage()</td>
+              <td>3</td>
+              <td class="duration" data-value="2722333333">2.722</td>
+              <td class="duration" data-value="2722333333">2.822</td>
+              <td class="duration" data-value="8167000000">8.167</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.saucedemo.stepdefinitions.AddAnItemToCheckoutSteps.i_click_on_the_checkout_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="111000000">0.111</td>
+              <td class="duration" data-value="111000000">0.111</td>
+              <td class="duration" data-value="111000000">0.111</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.saucedemo.stepdefinitions.AddAnItemToCheckoutSteps.i_have_items_in_my_basket()</td>
+              <td>1</td>
+              <td class="duration" data-value="591000000">0.591</td>
+              <td class="duration" data-value="591000000">0.591</td>
+              <td class="duration" data-value="591000000">0.591</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.saucedemo.stepdefinitions.AddAnItemToCheckoutSteps.it_should_be_added_successfully()</td>
+              <td>1</td>
+              <td class="duration" data-value="171000000">0.171</td>
+              <td class="duration" data-value="171000000">0.171</td>
+              <td class="duration" data-value="171000000">0.171</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.saucedemo.stepdefinitions.LoginSteps.i_enter_the_Password(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="65000000">0.065</td>
+              <td class="duration" data-value="65000000">0.065</td>
+              <td class="duration" data-value="65000000">0.065</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.saucedemo.stepdefinitions.LoginSteps.i_enter_the_Username(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="73000000">0.073</td>
+              <td class="duration" data-value="73000000">0.073</td>
+              <td class="duration" data-value="73000000">0.073</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.saucedemo.stepdefinitions.LoginSteps.i_enter_the_credentials(java.lang.String,java.lang.String)</td>
+              <td>7</td>
+              <td class="duration" data-value="146857142">0.146</td>
+              <td class="duration" data-value="146857142">0.172</td>
+              <td class="duration" data-value="1028000000">1.028</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.saucedemo.stepdefinitions.LoginSteps.i_login_I_should_get_an_error_message()</td>
+              <td>1</td>
+              <td class="duration" data-value="95000000">0.095</td>
+              <td class="duration" data-value="95000000">0.095</td>
+              <td class="duration" data-value="95000000">0.095</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.saucedemo.stepdefinitions.LoginSteps.i_navigate_to_the_Sauce_Labs_Homepage()</td>
+              <td>8</td>
+              <td class="duration" data-value="923000000">0.923</td>
+              <td class="duration" data-value="923000000">1.766</td>
+              <td class="duration" data-value="7384000000">7.384</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.saucedemo.stepdefinitions.LoginSteps.i_should_be_logged_in_successfully()</td>
+              <td>4</td>
+              <td class="duration" data-value="2780750000">2.780</td>
+              <td class="duration" data-value="2780750000">7.822</td>
+              <td class="duration" data-value="11123000000">11.123</td>
+              <td class="passed">100.00%</td>
+            </tr>
+        </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>19</td>
+            <td>53</td>
+            <td class="duration">2.060</td>
+            <td class="duration">1:13.782</td>
+            <td class="duration">1:49.202</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>
